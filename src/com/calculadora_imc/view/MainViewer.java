@@ -88,7 +88,7 @@ public class MainViewer {
 		alturaTextField.setBounds(115, 112, 95, 30);
 		calculadoraFrame.getContentPane().add(alturaTextField);
 
-		JButton calcularButton = new JButton("Caclular");
+		JButton calcularButton = new JButton("Calcular");
 		calcularButton.setForeground(Color.BLUE);
 		calcularButton.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		calcularButton.setBounds(68, 171, 138, 38);

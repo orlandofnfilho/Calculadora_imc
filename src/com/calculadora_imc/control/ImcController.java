@@ -27,8 +27,7 @@ public class ImcController implements ActionListener {
 		// TODO Auto-generated method stub
 
 		imc = new ImcBeam(context.getPesoTextField().getText(), context.getAlturaTextField().getText());
-		
-		
+
 		context.getResultPane().setText(imc.getResult());
 	}
 
